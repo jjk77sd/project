@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "sass --watch src/scss/app.scss public/css/app.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "express-handlebars": "^8.0.1"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "sass": "^1.99.0"
+  }
+}
